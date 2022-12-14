@@ -1,7 +1,11 @@
+#To create new folder use below command
 mkdir FILENAME
+#to check the existence of the folder use below command
 ls
-vi FILENAME1
+#To create new file use below command
+vi FILENAME1.txt
+#After entering the information you want in the opened file, you can write :wq and save the file.
+#To check the contents of the file
 cat FILENAME1
-mv FILENAME1 FILENAME
-mkdir EXAM_QUESTIONS
-cp FILENAME1 EXAM_QUESTIONS
+#In order to transfer the file we created into the folder we created,
+mv FILENAME1.txt FILENAME
